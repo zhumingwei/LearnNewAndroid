@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.myteam.learnnewandroid">
+
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.launcher2.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.launcher3.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.miui.home.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.google.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.qihoo360.home2.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.qihoo360.home.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.qihoo360.home.launcher2.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.google.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.google.android.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_ACCESS_MODIFY_CONFIGURATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RippleActivity" />
+        <activity android:name=".CustomRecyclerViewItemAnimationActivity" />
+        <activity android:name=".CustomScollerActivity" />
+        <activity android:name=".customscoller.GetApplicationData" />
+        <activity android:name=".ClassDataActivity" />
+        <activity
+            android:name=".TapMainActivity"
+            android:label="@string/title_activity_tap_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MaterialScrollingActivity"
+            android:label="@string/title_activity_material_scrolling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AnalysisContentResolverActivity" />
+        <activity
+            android:name=".DrawerActivity"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

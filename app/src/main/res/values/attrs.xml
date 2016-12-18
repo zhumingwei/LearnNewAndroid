@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TimeIncreaseView">
+        <attr name="largeColor" format="color"/>
+        <attr name="smallColor" format="color"/>
+        <attr name="largeSize" format="dimension" />
+        <attr name="smallSize" format="dimension" />
+        <attr name="hour" format="integer"/>
+        <attr name="min" format="integer"/>
+        <attr name="wordspacing" format="dimension"/>
+        <attr name="huddle" format="boolean"></attr>
+        <attr name="textstyle" format="string"></attr>
+        <attr name="needHour" format="boolean"></attr>
+        <attr name="needMin" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="SmoothToggleButton">
+        <attr name="openMode" format="boolean" />
+
+    </declare-styleable>
+
+    <declare-styleable name="ExamineIncreaseView">
+        <attr name="textdiscriblesize" format="dimension"/>
+        <attr name="textnumsize" format="dimension"/>
+        <attr name="textcolor" format="color"/>
+        <attr name="maxnum" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CheckResultRecyclerView">
+        <attr name="item_text_color" format="color"></attr>
+        <attr name="loading_img" format="reference"></attr>
+        <attr name="check_img" format="reference"></attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="ShadowView">
+        <attr name="shadow_height" format="dimension"/>
+        <attr name="start_color" format="color"></attr>
+        <attr name="end_color" format="color"/>
+    </declare-styleable>
+    <string-array name="language" translatable="false">
+        <item>@string/language_default</item>
+        <item>English</item>
+        <item>български</item>
+        <item>Čeština</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>Eλληνικά</item>
+        <item>Español</item>
+        <item>Español(Latinoamérica)</item>
+        <item>Français</item>
+        <item>हिन्दी</item>
+        <item>Hrvatski</item>
+        <item>Magyar</item>
+        <item>Indonesia</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>한국의</item>
+        <item>Melayu</item>
+        <item>Nederlands</item>
+        <item>Norsk bokmâl</item>
+        <item>Polski</item>
+        <item>Português(Portugal)</item>
+        <item>Português(Brasil)</item>
+        <item>Română</item>
+        <item>Pусский</item>
+        <item>Slovenský</item>
+        <item>Slovenščina</item>
+        <item>Српски</item>
+        <item>Svenska</item>
+        <item>ไทย</item>
+        <item>Türkçe</item>
+        <item>Tiếng Việt</item>
+        <!--<item>简体中文</item>
+        <item>繁體中文(香港)</item>
+        <item>繁體中文(台灣)</item> -->
+        <item>বাঙালি</item> 
+        <item>Український</item>
+        <item>عربي</item>
+    </string-array>
+    <string name="language_default" translatable="false">Default</string>
+</resources>
